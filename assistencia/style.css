@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    max-width: 100vw;
+  
+
+}
+/* Navegação */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: #C0D725;
+    position: fixed;
+    z-index: 1;   
+}
+.nav-img-logo img{
+    width: 60px;
+    height: 58px;
+    border-radius: 2px;
+    margin-left: 5px;
+    padding: 0;
+    margin: 0 0 0 2px;
+}
+.nav-list ul{
+    display: flex;
+    padding-right: 60px;
+}
+.nav-list li{
+    padding-left: 30px;
+    list-style: none;
+    font-size: 19px;
+}
+.nav-list a{
+    color: #0F4C82;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.nav-list a:hover{
+    background-color: #0F4C82;
+    color: #C0D725;
+    transition: .5s;    
+}
+
+/* section */
+/* Banner */
+
+.banner{
+ 
+    
+    display: flex;
+    justify-content: center;  
+    margin: 0;
+    padding: 0;  
+}
+
+.section-banner{
+    padding: 60px 0 0;
+    margin: 0;
+    width: 70vw;
+    height: 100vh; 
+ 
+}
+/* mkt-1 */
+
+.mkt-banner{
+    display: block;   
+    padding: 40px
+}
+.row-1, .row-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row-1 p , .row-2 p{
+    font-size: 30px;
+    padding: 0 25px;
+    
+}
+.list-mkt{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+ 
+}
+ion-icon{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+/* top rticle */
+.top-article{
+    display: flex;
+    width: 90vw;
+    height: 300px;
+    padding-bottom: 50px;
+    margin: auto
+}
+.top-article-banner{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.top-article-banner img{
+    width:33vw;
+    height: 100%;
+
+}
+.barras{
+    display:flex ;
+    width: 70vw;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.barra{
+    
+    background-color: #0F4C82;
+    height: 1px;
+    width: 30vw;
+    
+ 
+}
+
+/* center article */
+.center-article{
+    background-image: url(assets/banners/fundo-midle-banner\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+}
+/* bottom - article */
+
+.bottom-article{
+    position: relative;
+    top:400px ;
+    padding: 50px 25px;
+    display: flex;
+}
+.bottom-article img{
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+/* Aside */
+
+.aside-content{
+  
+  box-sizing: border-box;
+  
+  
+ 
+}
+.aside-content h2{
+    font-size:30px ;
+    text-align: center;
+}
+.aside-content li{
+    font-size: 25px;  
+    width: 50vw; 
+    list-style: none;
+    text-align: center; 
+}
+
+.quem-somos{
+    margin-bottom: 50px;
+}
+.quem-somos h1{
+    font-size: 40px;
+    text-align: center;
+}
+.quem-somos p{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* Map */
+.map-contact{
+    position: relative;
+    top: 400px;
+    left: 25px;
+    width: 98vw;
+}
+
+.contact{
+   
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin-bottom: 50px;
+    
+}
+.contact form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact form input{
+    margin: 0px 10px;
+    width: 300px;
+    height: 25px;
+}
+.contact form button{
+    padding: 0 10px;
+    cursor: pointer;
+}
+.contact h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 19px;
+}
+.map iframe{
+    width: 100%;
+}
+/* .whatsapp{
+    position: fixed;
+    left: 90%;
+    top: 80%;
+    font-size: 80px;
+    
+    z-index: 0;
+    animation: zap 1s linear infinite;
+}
+@keyframes zap {
+    25%{
+        transform: translateX(2px);
+        transform: translateY(-2px)
+    }
+    50%{
+        transform: translateX(-2px);
+        transform: translateY(2px);
+    }
+    75%{
+        transform: translateX(2px);
+        transform: translateY(-2px)
+    }
+    100%{
+        transform: translateX(-2px);
+        transform: translateY(2px);
+    }
+}
+.whatsapp a{
+    color: #34B024;
+} */
+/* footer */
+footer{
+    position: relative;
+    top: 400px;
+    padding: 10px;
+    background-color: #C0D725;
+    
+}
+footer p{
+    color: #0F4C82;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons p{
+    color: #0F4C82;
+    font-size: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+

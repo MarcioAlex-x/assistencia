@@ -1,0 +1,479 @@
+@media screen and (max-width: 768px) {
+    nav {
+        position: relative;
+    }
+    .nav-list li {
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .nav-list a {
+        padding: 0;
+    }
+
+    /* mkt-1 */
+
+    .mkt-banner {
+        display: none;
+        padding: 40px
+    }
+
+    .row-1,
+    .row-2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .row-1 p,
+    .row-2 p {
+        font-size: 16px;
+    }
+
+    .list-mkt {
+        display: block;
+        font-size: 16px;
+
+
+    }
+
+    ion-icon {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    /* top rticle */
+    .top-article {
+        display: none;
+        position: relative;
+
+    }
+
+    /* Center article */
+    .center-article {
+        display: none;
+
+    }
+
+    /* Bottom article */
+
+    .bottom-article {
+        display: none;
+    }
+
+
+
+    /* aside */
+    aside {
+        display: block;
+    }
+
+    .quem-somos .barras {
+        display: none;
+    }
+
+    .map-contact {
+        top: 0;
+        left: 0;
+        margin: auto;
+
+    }
+
+    .contact form {
+        display: block;
+        padding-bottom: 5px;
+
+    }
+
+    .contact form input,
+    .contact form button {
+        display: flex;
+        margin-bottom: 5px;
+
+    }
+
+    /* .whatsapp {
+        left: 90%;
+        top: 90%;
+        font-size: 50px;
+    }
+
+    .whatsapp a {
+        color: #34B024;
+    } */
+
+    footer {
+        position: relative;
+        top: 0px;
+        padding: 10px;
+        background-color: #C0D725;
+
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    nav {
+        position: relative;
+    }
+
+
+
+
+
+    .nav-list li {
+        padding-left: 10px;
+        font-size: 12px;
+
+    }
+
+    .nav-list a {
+        padding: 0;
+    }
+
+    /* mkt-1 */
+
+    .mkt-banner {
+        display: non;
+        padding: 40px
+    }
+
+    .row-1,
+    .row-2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .row-1 p,
+    .row-2 p {
+        font-size: 16px;
+    }
+
+    .list-mkt {
+        display: block;
+        font-size: 16px;
+
+
+    }
+
+    ion-icon {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    /* top rticle */
+    .top-article {
+        display: none;
+        position: relative;
+
+    }
+
+    /* Center article */
+    .center-article {
+        display: none;
+
+    }
+
+    /* Bottom article */
+
+    .bottom-article {
+        display: none;
+    }
+
+
+
+    /* aside */
+    aside {
+        display: block;
+    }
+
+    .quem-somos .barras {
+        display: none;
+    }
+
+    .map-contact {
+        top: 0;
+        left: 0;
+        margin: auto;
+
+    }
+
+    .contact form {
+        display: block;
+        padding-bottom: 5px;
+
+    }
+
+    .contact form input,
+    .contact form button {
+        display: flex;
+        margin-bottom: 5px;
+
+    }
+
+   /*  .whatsapp {
+        left: 85%;
+        top: 88%;
+        font-size: 50px;
+    }
+
+    .whatsapp a {
+        color: #34B024;
+    } */
+
+    footer {
+        position: relative;
+        top: 0px;
+        padding: 10px;
+        background-color: #C0D725;
+
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+    nav {
+        position: relative;
+    }
+
+    .nav-list li {
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .nav-list a {
+        padding: 0;
+    }
+
+    /* mkt-1 */
+
+    .mkt-banner {
+        display: non;
+        padding: 40px
+    }
+
+    .row-1,
+    .row-2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .row-1 p,
+    .row-2 p {
+        font-size: 16px;
+    }
+
+    .list-mkt {
+        display: block;
+        font-size: 16px;
+
+
+    }
+
+    ion-icon {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    /* top rticle */
+    .top-article {
+        display: none;
+        position: relative;
+
+    }
+
+    /* Center article */
+    .center-article {
+        display: none;
+
+    }
+
+    /* Bottom article */
+
+    .bottom-article {
+        display: none;
+    }
+
+
+
+    /* aside */
+    aside {
+        display: block;
+    }
+
+    .quem-somos .barras {
+        display: none;
+    }
+
+    .map-contact {
+        top: 0;
+        left: 0;
+        margin: auto;
+
+    }
+
+    .contact form {
+        display: block;
+        padding-bottom: 5px;
+
+    }
+
+    .contact form input,
+    .contact form button {
+        display: flex;
+        margin-bottom: 5px;
+
+    }
+
+    /* .whatsapp {
+        left: 80%;
+        top: 88%;
+        font-size: 50px;
+    }
+
+    .whatsapp a {
+        color: #34B024;
+    } */
+
+    footer {
+        position: relative;
+        top: 0px;
+        padding: 10px;
+        background-color: #C0D725;
+
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    nav {
+        position: relative;
+    }
+
+
+
+
+
+    .nav-list li {
+        padding-left: 10px;
+        font-size: 12px;
+
+    }
+
+    .nav-list a {
+        padding: 0;
+    }
+
+    /* mkt-1 */
+
+    .mkt-banner {
+        display: non;
+        padding: 40px
+    }
+
+    .row-1,
+    .row-2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .row-1 p,
+    .row-2 p {
+        font-size: 16px;
+    }
+
+    .list-mkt {
+        display: block;
+        font-size: 16px;
+
+
+    }
+
+    ion-icon {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    /* top rticle */
+    .top-article {
+        display: none;
+        position: relative;
+
+    }
+
+    /* Center article */
+    .center-article {
+        display: none;
+
+    }
+
+    /* Bottom article */
+
+    .bottom-article {
+        display: none;
+    }
+
+
+
+    /* aside */
+    aside {
+        display: block;
+    }
+
+    .quem-somos .barras {
+        display: none;
+    }
+
+    .map-contact {
+        top: 0;
+        left: 0;
+        margin: auto;
+
+    }
+
+    .contact form {
+        display: block;
+        padding-bottom: 5px;
+
+    }
+
+    .contact form input,
+    .contact form button {
+        display: flex;
+        margin-bottom: 5px;
+
+    }
+
+ /*    .whatsapp {
+        left: 75%;
+        top: 80%;
+        font-size: 50px;
+    }
+
+    .whatsapp a {
+        color: #34B024;
+    } */
+
+    footer {
+        position: relative;
+        top: 0px;
+        padding: 10px;
+        background-color: #C0D725;
+
+    }
+
+}
